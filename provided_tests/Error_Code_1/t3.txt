@@ -1,0 +1,26 @@
+TASKS
+    1 2 3
+POLY
+    A = x + 2;
+    B = x - 1;
+    C(Y,Z) = 3;
+    A
+    
+     = x + 2;
+    B = x - 1;
+    C(Y,Z) = 3;
+    D 
+    = x + 2;
+    A = x + 
+    2;
+    B 
+    
+    = x - 1;
+    C
+    (Y,Z) = 3;
+EXECUTE
+    INPUT V;
+    w = B(V);
+    OUTPUT w;
+INPUTS
+    3 4 5

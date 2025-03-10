@@ -1,0 +1,11 @@
+TASKS
+    1 5
+POLY
+    F1 = x^4 x^3 + 3 x^2 x^2 + 20;
+    F2(X,Y) = 3 ( (X + Y^2)^2 + 4 (X+Y) )^2;
+EXECUTE
+    INPUT A;
+    w = F1(A);
+    OUTPUT w;
+INPUTS
+    3 8 9

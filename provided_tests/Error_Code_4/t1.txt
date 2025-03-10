@@ -1,0 +1,16 @@
+TASKS
+1 2
+POLY
+    F1 = x + 2;
+    F2(X,Y,Z) = X + Y + Z;
+EXECUTE
+    a = F2(F1(3),F1(4,5));
+    OUTPUT a;
+    b = F2(
+        3,
+        4,
+        F1(7,F1(8,9)),
+        6
+    );
+INPUTS
+1 2 3 4 5

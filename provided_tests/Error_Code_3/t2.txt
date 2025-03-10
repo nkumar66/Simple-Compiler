@@ -1,0 +1,18 @@
+TASKS
+    1 2 3
+POLY
+    F = x + 2;
+    G = x - 1;
+EXECUTE
+    INPUT A;
+    w = 
+    F(
+        G(
+            F(
+                C(C(C(3)))
+            )
+        )
+    );
+    OUTPUT w;
+INPUTS
+    3 4 5

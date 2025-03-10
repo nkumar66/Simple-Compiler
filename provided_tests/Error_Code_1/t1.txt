@@ -1,0 +1,13 @@
+TASKS
+    1 2 3
+POLY
+    F = x + 2;
+    G = x - 1;
+    F(Y,Z) = 3;
+    G(Y,Z) = Y + 3 (Y - 2)^2 + Z;
+EXECUTE
+    INPUT A;
+    w = F(A);
+    OUTPUT w;
+INPUTS
+    3 4 5

@@ -1,0 +1,18 @@
+TASKS
+    1 2
+POLY
+    F1 = x + 2;
+    F2(X,Y,Z) = X + Y + Z;
+    F3(X) = X^2 + 1;
+    F4(X,Y) = X + Y;
+    G1 = x + x + 3 x;
+EXECUTE
+    INPUT W;
+    a = F2(W,W);
+    b = F3(a,W);
+    c = F4(
+        a,
+        G1(b,a));
+    d = F1(b,c);
+INPUTS
+    1 2 3 4 5

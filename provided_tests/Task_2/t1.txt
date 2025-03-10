@@ -1,0 +1,10 @@
+TASKS
+    1 2
+POLY
+    F = x + 2;
+EXECUTE
+    INPUT a;
+    w = F(a);
+    OUTPUT w;
+INPUTS
+    3

@@ -1,0 +1,11 @@
+TASKS
+    1 2 3 4 5
+POLY
+    F(X, Y) = 3 X^2 + 2;
+    G = 2 (x - 1) (x - 2);
+EXECUTE
+    INPUT A;
+    w = G(F(A,A);
+    OUTPUT w;
+INPUTS
+    3 4 5

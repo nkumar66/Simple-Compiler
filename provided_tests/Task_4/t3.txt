@@ -1,0 +1,15 @@
+TASKS
+    1 4
+POLY
+    F = 2x + 1;
+EXECUTE
+    W = F(4);
+    W = F(F(W));
+    INPUT W;
+    W = F(W);
+    INPUT Z;
+    Y = F(Z);
+    Z = F(Z);
+    X = F(F(F(Y)));
+INPUTS
+    2 4 6
